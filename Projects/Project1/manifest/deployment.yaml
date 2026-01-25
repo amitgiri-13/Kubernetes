@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: game-app
+  namespace: games
+  labels:
+    app: game-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: game-app
+  template:
+    metadata:
+      labels:
+        app: game-app
+    spec:
+      imagePullSecrets:
+        - name: dockerhub-secret
+      containers:
+      - name: game-app
+        image: amitgiri13/snake-game:1.0.0
+        ports:
+        - containerPort: 8000
+          name: http
+        env:
+        - name: LOG_LEVEL
+          value: "info"
+        resources:
+          requests:
+            memory: "128Mi"
+            cpu: "100m"
+          limits:
+            memory: "256Mi"
+            cpu: "500m"
