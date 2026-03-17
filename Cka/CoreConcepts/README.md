@@ -8,3 +8,5 @@
 6. [Kube Scheduler](./KubeScheduler.md)
 7. [Kubelet](./Kubelet.md)
 8. [Kube Proxy](./KubeProxy.md)
+9. [Pods](./Pods.md)
+10. [Pods with Yamal](./Pods-Yaml.md)
