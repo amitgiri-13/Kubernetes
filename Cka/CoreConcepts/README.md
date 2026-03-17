@@ -10,3 +10,4 @@
 8. [Kube Proxy](./KubeProxy.md)
 9. [Pods](./Pods.md)
 10. [Pods with Yamal](./Pods-Yaml.md)
+11. [Replicasets](./Replicaset.md)

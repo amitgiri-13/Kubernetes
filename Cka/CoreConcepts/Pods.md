@@ -73,3 +73,31 @@
 - Each pod typically contains a single container.
 - Kubernetes handles lifecycle, networking, and storage management automatically.
 - Multi-container pods exist but are uncommon.
+
+## Basic Commands 
+
+```bash
+# get pods
+kubectl get pods
+
+# create a pod
+kubectl run nginx --image=nginx
+
+# describe pods
+kubectl describe pod nginx
+
+# view all pods
+kubectl get pods -o wide
+
+# delete pod
+kubectl delete pod nginx
+
+# generate yaml file
+kubectl run redis --image=redis123 --dry-run=client -o yaml > pod.yaml
+
+# create pod with yaml
+kubectl create -f <pod.yaml>
+
+# apply the changes 
+kubectl apply -f <pod.yaml>
+```
