@@ -8,10 +8,10 @@ metadata:
 spec:
   nodeName: minikube
   tolerations:
-  - key: app
-    operator: Equal
-    value: manual-scheduled-app
-    effect: NoExecute
+  - key: spray
+    operator: equals
+    value: mortein
+    effect: NoSchedule
   containers:
   - name: nginx 
     image: nginx:latest

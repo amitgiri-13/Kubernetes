@@ -7,3 +7,5 @@
 3. [Lab 1](./Lab1.md)
 4. [Labels and Selectors](./LabelAndSelectors.md)
 5. [Lab 2](./Lab2.md)
+6. [Taints and Tolerations](./TaintsAndTolerations.md)
+7. [Lab 3](./Lab3.md)
