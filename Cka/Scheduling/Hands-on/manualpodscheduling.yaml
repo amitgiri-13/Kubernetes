@@ -1,0 +1,21 @@
+apiVersion: v1
+kind: Pod 
+metadata:
+  name: manual-pod-scheduling
+  namespace: hands-on
+  labels:
+    app: manual-scheduled-app
+spec:
+  nodeName: minikube
+  containers:
+  - name: nginx 
+    image: nginx:latest
+    ports:
+    - containerPort: 80
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+      limits:
+        memory: "128Mi"
+        cpu: "500m"

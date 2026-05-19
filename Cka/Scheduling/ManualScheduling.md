@@ -64,6 +64,10 @@ Use a Binding object and Kubernetes Binding API.
 3. Send a POST request to the Pod Binding API
 4. Kubernetes binds the Pod to the node
 
+*Note*
+
+The Binding object is used only for unscheduled pods (pods in Pending state with no nodeName set).Once a pod is scheduled and running, spec.nodeName becomes immutable. You cannot update or bind a running pod to a different node.
+
 ---
 
 # Key Points
