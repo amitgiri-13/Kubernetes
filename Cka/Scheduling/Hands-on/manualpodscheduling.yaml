@@ -7,6 +7,11 @@ metadata:
     app: manual-scheduled-app
 spec:
   nodeName: minikube
+  tolerations:
+  - key: app
+    operator: Equal
+    value: manual-scheduled-app
+    effect: NoExecute
   containers:
   - name: nginx 
     image: nginx:latest
