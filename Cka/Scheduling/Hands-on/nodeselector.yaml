@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nodeselector-pod
+  labels:
+    app: nodeselector
+spec:
+  containers:
+  - name: nginx 
+    image: nginx
+  nodeSelector:
+    size: small

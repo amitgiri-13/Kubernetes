@@ -9,3 +9,5 @@
 5. [Lab 2](./Lab2.md)
 6. [Taints and Tolerations](./TaintsAndTolerations.md)
 7. [Lab 3](./Lab3.md)
+8. [Node Selectors](./NodeSelector.md)
+
