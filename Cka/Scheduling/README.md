@@ -10,4 +10,6 @@
 6. [Taints and Tolerations](./TaintsAndTolerations.md)
 7. [Lab 3](./Lab3.md)
 8. [Node Selectors](./NodeSelector.md)
+9. [Lab4](./Lab4.md)
+10. [Taints and Toleration Vs Node Affinity](./TaintsTolerationAndAffinity.md)
 
