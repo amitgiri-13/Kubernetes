@@ -12,4 +12,8 @@
 8. [Node Selectors](./NodeSelector.md)
 9. [Lab4](./Lab4.md)
 10. [Taints and Toleration Vs Node Affinity](./TaintsTolerationAndAffinity.md)
+11. [Resource Requirements](./ResourcesRequirements.md)
+12. [Lab 5](./Lab5.md)
+
+
 
