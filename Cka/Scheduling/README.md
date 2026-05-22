@@ -14,6 +14,7 @@
 10. [Taints and Toleration Vs Node Affinity](./TaintsTolerationAndAffinity.md)
 11. [Resource Requirements](./ResourcesRequirements.md)
 12. [Lab 5](./Lab5.md)
-
+13. [DaemonSet](./Daemonset.md)
+14. [Lab 6](./Lab6.md)
 
 
