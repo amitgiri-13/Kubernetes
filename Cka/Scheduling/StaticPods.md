@@ -442,6 +442,7 @@ kubectl get pods -n kube-system
 
 Static Pods are pods directly managed by the Kubelet without API Server involvement.
 
+
 Key points:
 
 * Created from manifest files

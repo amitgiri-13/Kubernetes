@@ -16,5 +16,7 @@
 12. [Lab 5](./Lab5.md)
 13. [DaemonSet](./Daemonset.md)
 14. [Lab 6](./Lab6.md)
+15. [Static Pods](./StaticPods.md)
+16. [Lab 7](./Lab7.md)
 
 
