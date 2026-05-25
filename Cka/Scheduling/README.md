@@ -25,5 +25,7 @@
 21. [Scheduler Profiles](./SchedulerProfile.md)
 22. [Admission Controllers](./AdmissionController.md)
 23. [Lab 9: Admission Controllers](./Lab9.md)
+24. [Mutating and Validating Admission Controllers](./MutatingAndValidatingAdmissionControllers.md)
+25. [Lab 10: Web-hooks](./Lab10.md)
 
 
