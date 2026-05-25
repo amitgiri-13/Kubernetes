@@ -22,5 +22,6 @@
 18. [Priority Class](./PriorityClass.md)
 19. [Multiple Schedulers](./MultipleScheduler.md)
 20. [Lab 8: Multiple Schedulers](./Lab8.md)
+21. [Scheduler Profiles](./SchedulerProfile.md)
 
 
