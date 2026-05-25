@@ -23,5 +23,7 @@
 19. [Multiple Schedulers](./MultipleScheduler.md)
 20. [Lab 8: Multiple Schedulers](./Lab8.md)
 21. [Scheduler Profiles](./SchedulerProfile.md)
+22. [Admission Controllers](./AdmissionController.md)
+23. [Lab 9: Admission Controllers](./Lab9.md)
 
 
