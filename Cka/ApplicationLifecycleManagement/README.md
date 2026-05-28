@@ -10,3 +10,5 @@
 6. [Lab 2: Commands and Arguments](./Lab2.md)
 7. [ConfigMaps](./ConfigMaps.md)
 8. [Lab 3: Environment Variables](./Lab3.md)
+9. [Secrets](./Secrets.md)
+10. [Lab 4: Secrets](./Secrets.md)
