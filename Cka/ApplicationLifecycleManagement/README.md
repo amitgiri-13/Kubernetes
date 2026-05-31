@@ -18,3 +18,4 @@
 14. [Lab 5: Multi containers](./Lab5.md)
 15. [Autoscaling](./Autoscaling.md)
 16. [Horizontal Pod Autoscaling](./hpa.md)
+17. [Vertical Pod Autoscaling](./vpa.md)
