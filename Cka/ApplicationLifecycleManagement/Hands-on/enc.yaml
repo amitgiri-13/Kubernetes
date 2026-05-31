@@ -1,0 +1,11 @@
+apiVersion: apiserver.config.k8s.io/v1
+kind: EncryptionConfiguration
+resources:
+  - resources:
+      - secrets
+    providers:
+      - aescbc:
+          keys:
+            - name: key1
+              secret: SPQr6ZflBP5HQou30JJ1qd4/2a31tca1Ur/BTU1qlZI=
+      - identity: {}   # Allows reading unencrypted secrets (important during migration)
