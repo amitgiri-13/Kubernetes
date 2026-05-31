@@ -15,3 +15,4 @@
 11. [Secrets Encryption at Rest](./SecretsEncryption.md)
 12. [Multi Containers in Pod](./MultiContainer.md)
 13. [Multi Containers Pattern](./MultiContainerPattern.md)
+14. [Lab 5: Multi containers](./Lab5.md)
