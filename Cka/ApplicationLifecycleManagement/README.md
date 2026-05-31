@@ -12,3 +12,6 @@
 8. [Lab 3: Environment Variables](./Lab3.md)
 9. [Secrets](./Secrets.md)
 10. [Lab 4: Secrets](./Secrets.md)
+11. [Secrets Encryption at Rest](./SecretsEncryption.md)
+12. [Multi Containers in Pod](./MultiContainer.md)
+13. [Multi Containers Pattern](./MultiContainerPattern.md)
