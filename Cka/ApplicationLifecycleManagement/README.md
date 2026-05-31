@@ -19,3 +19,5 @@
 15. [Autoscaling](./Autoscaling.md)
 16. [Horizontal Pod Autoscaling](./hpa.md)
 17. [Vertical Pod Autoscaling](./vpa.md)
+18. [In Place Resizing](./InPlaceResizing.md)
+19. [Vertical Pod Autoscaling - Updated](./vpa-updated.md)
