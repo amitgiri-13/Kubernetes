@@ -6,3 +6,4 @@
 2. [Drain, Cordon, Uncordon](./DrainCordonUncordon.md)
 3. [Lab 1: Maintenance](./Lab1.md)
 4. [Kubernetes Releases](./KubernetesReleases.md)
+5. [Cluster Upgrades](./ClusterUpgrades.md)
